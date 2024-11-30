@@ -1,18 +1,36 @@
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.arizonia-regular {
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 *{
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    background: black url("img/background.jpg") no-repeat  ;
+    background-size: cover;
 }
 /* Navigation */
 header >nav{
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,30 +38,85 @@ header >nav{
 }
 header >nav >.logo{
     width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 header >nav >.liens-nav{
     width: 50%;
+    height: 100%;
 }
 header > nav > .reseau-nav{
     width: 25%;
+    height: 100%;
 }
 header > nav > .liens-nav > ul{
+
     display: flex;
+    height: 100%;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
 }
 header > nav >.reseau-nav > ul{
     display: flex;
+    height: 100%;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: center;
+}
+header > nav > .reseau-nav > ul > li{
+    height: 60%;
+    width: auto;
+    padding-right: 2vw;
+    overflow: hidden;
+}
+header > nav > .reseau-nav a img{
+    background-color: white;
+    height: 80%;
+    padding: 2px;
+    border-radius:50%;
+}
+header > nav > .liens-nav a{
+    font-size: 2rem;
+    font-family: "oswald";
+    text-decoration: none;
+    color: white;
 }
 /* Presentation */
 header > .presentation{
     width: 100vw;
-    height: 95vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    color: rgb(255, 255, 255);
+
+}
+header > .presentation h1{
+    font-family: "arizonia";
+    font-size: 6rem;
+}
+header > .presentation h2 {
+    font-family: "arizonia";
+    font-size: 4rem;
+}
+header > .presentation a{
+    margin-top: 16vh;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3vh 5vw;
+    font-family: "oswald";
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
 }
