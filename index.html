@@ -8,10 +8,61 @@
     <title> Mon Portfolio | Nino MEGARD</title>
 </head>
 <body>
-<header></header>
+<header>
+    <nav aria-label="navigation principale"></nav>
+</header>
 <main>
-    <p>Hello, world!</p>
+    <section class="a-propos" aria-label="A propos de moi">
+        <h2>À propos de moi</h2>
+        <p>Étudiant en informatique à l'IUT Lyon 1, je suis passionné par le développement de solutions web et mobiles pour simplifier et améliorer le quotidien.</p>
+        <a href="">En savoir plus</a>
+    </section>
+    <section class="mes-competences" aria-label="Mes compétences">
+        <h2>Mes compétences</h2>
+        <p>Au cours de ma formation, j'ai acquis et continue d'affiner des compétences en informatique.</p>
+        <a href="">En savoir plus</a>
+    </section>
+    <section class="mes-projets" aria-label="Mes projets">
+        <h2>Mes projets</h2>
+        <p>Au cours de ma formation, j'ai eu l'occasion de réaliser divers projets, notamment dans le développement web et mobile.</p>
+        <a href="">En savoir plus</a>
+    </section>
+    <section class="contactez-moi" aria-label="Contactez moi">
+        <h2>Vous souhaitez me contacter ?</h2>
+        <form action="" method="post" >
+            <fieldset>
+                <legend>Vos informations</legend>
+            <label for="prenom"> Prénom</label>
+            <input type="text" placeholder="nino" name="prenom" id="prenom" required>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" placeholder="megard" id="nom" required>
+            <label for="mail">Mail</label>
+            <input type="text" name="mail" placeholder="nino.megard@etu.univ-lyon1.fr" id="mail" required>
+            </fieldset>
+            <label for="msg">Message</label>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mon message."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
 </main>
-<footer></footer>
+<footer>
+    <nav aria-label="navigation secondaire">
+        <ul>
+            <li><a href="">À propos</a></li>
+            <li><a href="">Mes projets</a></li>
+            <li><a href="">Mes compétences</a></li>
+        </ul>
+    </nav>
+    <div class="mes-reseaux">
+        <a href="">GitHub</a>
+        <a href="">LinkedIn</a>
+    </div>
+    <p>© 2024 Nino Mégard - Etudiant Informatique 2ème année</p>
+    <p>
+        Site réalisé par Nino Mégard. Design et code 100% faits maison.<br>
+        <a href="">Mentions légales</a> | <a href="">Politique de confidentialité</a>
+    </p>
+    <a href="" class="retour-en-haut">↑ Retour en haut</a>
+</footer>
 </body>
 </html>
