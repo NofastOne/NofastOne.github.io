@@ -46,6 +46,11 @@ header >nav >.logo{
     align-items: center;
     justify-content: flex-start;
 }
+header > nav .logo img{
+    height: 10vh;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+}
 header >nav >.liens-nav{
     width: 50%;
     height: 100%;
@@ -161,43 +166,117 @@ main p{
     text-align: justify;
 
 }
-main > section:nth-of-type(1), main > section:nth-of-type(2), main > section:nth-of-type(3){
-    border-radius: 15px;
-    margin-top: 2.5vh;*
-    margin-bottom: 2.5vh;
-    height: auto;
+/* A-Propos */
+main > .a-propos{
+    margin-top: 5vh;
     display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+main > .a-propos > .content > h2, main > .a-propos > .content > p, main > .a-propos > .content > a{
+    margin-right: 16vw;
+    margin-left: 0;
+}
+main > .a-propos > .deco{
+    display: flex;
+    width: 45%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.42);
+    background-size: cover;
+    border-radius: 15px;
+}
+main > .a-propos > .content{
+    display: flex;
+    width: 45%;
+    border-radius: 15px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
-    padding: 5vw;
-    width: 40vw;
-    align-items: start;
-    background-color: #000000;
-
-
-}
-main > .a-propos{
-    margin-left: 10vw;
-    background: url("img/section_1.JPG") no-repeat;
+    align-items: center;
+    background:  rgba(0, 0, 0, 0.42) url("img/section_1.JPG") no-repeat;
     background-size: cover;
+    color: white;
 }
-main > .mes-competences {
-    margin-left: 25vw;
-    background: url("img/DSCF0063.JPG") no-repeat;
-    background-size: cover;
+/* Mes-Competences */
+main > .mes-competences{
+    margin-top: 5vh;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+main > .mes-competences > .content > h2, main > .mes-competences > .content > p, main > .mes-competences > .content > a{
+    margin-right: 16vw;
+    margin-left: 0;
+}
+main > .mes-competences > .deco{
+    display: flex;
+    width: 21%;
+    height: 100%;
 
-}
-main > .mes-projets {
-    margin-left: 40vw;
-    background: url("img/section_3.JPG") no-repeat;
+    background-color: rgba(0, 0, 0, 0.42);
     background-size: cover;
-
+    border-radius: 15px;
 }
-main > .contactez-moi{
+main > .mes-competences > .content{
+    display: flex;
+    width: 45%;
+    border-radius: 15px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  rgba(0, 0, 0, 0.42) url("img/DSCF0063.JPG") no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* Mes-Projets */
+main > .mes-projets{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+main > .mes-projets > .content > h2, main > .mes-projets > .content > p, main > .mes-projets > .content > a{
+    margin-right: 16vw;
+    margin-left: 0;
+}
+main > .mes-projets > .deco{
+    display: flex;
+    width: 45%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.42);
+    background-size: cover;
+    border-radius: 15px;
+}
+main > .mes-projets > .content{
+    display: flex;
+    width: 45%;
+    border-radius: 15px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  rgba(0, 0, 0, 0.42) url("img/section_3.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* Formulaire de contact */
+main > .contactez-moi {
     display: flex;
     width: 100%;
     background-color: white;
-    margin-top: 3vh;
     flex-direction: column;
     align-items: center;
 }
@@ -209,6 +288,7 @@ main > .contactez-moi > h2{
 }
 main > .contactez-moi > form{
     display: flex;
+    font-family: "oswald";
     flex-direction: column;
     width: 50%;
     height: auto;
@@ -252,11 +332,13 @@ main > .contactez-moi > form  button{
     color: black;
 }
 main .contactez-moi video{
-    height: 100%;
+
+    width: 100vw;
     position: absolute;
     z-index: 0;
 }
 
+/* Footer */
 footer{
     z-index: 1;
     height: 30vh;
