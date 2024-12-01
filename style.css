@@ -279,6 +279,7 @@ main > .mes-projets > .content{
 /* Formulaire de contact */
 main > .contactez-moi {
     display: flex;
+    font-family: "oswald";
     width: 100%;
     background-color: white;
     flex-direction: column;
@@ -286,13 +287,14 @@ main > .contactez-moi {
 }
 main > .contactez-moi > h2{
     color:black;
+    margin-top: -2vh;
     background-color: rgba(0,0,0,0);
     font-size: 3rem;
     z-index: 1;
 }
 main > .contactez-moi > form{
     display: flex;
-    font-family: "oswald";
+
     flex-direction: column;
     width: 50%;
     height: auto;
@@ -306,6 +308,7 @@ main > .contactez-moi > form{
 }
 main > .contactez-moi > form  input{
     width: 80%;
+    font-family: "oswald";
     height: 3vh;
     margin-top: 3vh;
     border-radius: 10px;
@@ -327,17 +330,17 @@ main > .contactez-moi > form  textarea{
 }
 main > .contactez-moi > form  button{
     width: 40%;
-    height: 5vh;
-    margin-top: 4vh;
-    border-radius: 5px;
-    padding: 1vh;
+    font-family: "oswald";
+    padding: 3vh;
     font-size: 1.5rem;
     background-color: white;
-    color: black;
+    border-radius: 10px;
+    margin-top: 3vh;
 }
 main .contactez-moi video{
-
     width: 100vw;
+    height: 100vh;
+    object-fit: cover;
     position: absolute;
     z-index: 0;
 }
