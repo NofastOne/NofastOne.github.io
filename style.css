@@ -197,9 +197,13 @@ main > .a-propos > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("img/section_1.JPG") no-repeat;
+    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596487/pexels-photo-29596487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
+}
+
+#keyboard-spline{
+    width: 80%;
 }
 /* Mes-Competences */
 main > .mes-competences{
@@ -232,7 +236,7 @@ main > .mes-competences > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("img/DSCF0063.JPG") no-repeat;
+    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596463/pexels-photo-29596463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
 }
@@ -268,7 +272,7 @@ main > .mes-projets > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("img/section_3.jpg") no-repeat;
+    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596486/pexels-photo-29596486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
 }
