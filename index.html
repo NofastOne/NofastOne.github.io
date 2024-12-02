@@ -2,14 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Cherish&family=Oswald&display=swap" rel="stylesheet">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Cherish&family=Oswald&display=swap"
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <title> Mon Portfolio | Nino MEGARD</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     <nav aria-label="navigation principale">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.PNG" alt="logo nino mégard">
+                <img alt="logo nino mégard" src="img/logo.PNG">
             </a>
         </div>
         <div class="liens-nav">
@@ -32,10 +33,10 @@
         <div class="reseau-nav">
             <ul>
                 <li><a href="https://linkedin.com/in/nino-megard-11751133a">
-                    <img src="img/linkedin.png" alt="Logo Linkedin">
+                    <img alt="Logo Linkedin" src="img/linkedin.png">
                 </a></li>
                 <li><a href="https://github.com/NofastOne">
-                    <img src="img/github.png" alt="Logo Github">
+                    <img alt="Logo Github" src="img/github.png">
                 </a></li>
             </ul>
         </div>
@@ -47,70 +48,79 @@
     </section>
 </header>
 <main>
-    <section class="a-propos" aria-label="A propos de moi">
+    <section aria-label="A propos de moi" class="a-propos">
         <div class="content">
-        <h2>À propos de moi</h2>
-        <p>Étudiant en informatique à l'IUT Lyon 1, je suis passionné par le développement de solutions web et mobiles pour simplifier et améliorer le quotidien.</p>
-        <a href="">En savoir plus</a>
+            <h2>À propos de moi</h2>
+            <p>Étudiant en informatique à l'IUT Lyon 1, je suis passionné par le développement de solutions web et
+                mobiles pour simplifier et améliorer le quotidien.</p>
+            <a href="">En savoir plus</a>
         </div>
         <div class="deco"><</div>
     </section>
-    <section class="mes-competences" aria-label="Mes compétences">
+    <section aria-label="Mes compétences" class="mes-competences">
         <div class="deco"></div>
         <div class="content">
-        <h2>Mes compétences</h2>
-        <p>Au cours de ma formation, j'ai acquis et continue d'affiner des compétences en informatique.</p>
-        <a href="">En savoir plus</a>
+            <h2>Mes compétences</h2>
+            <p>Au cours de ma formation, j'ai acquis et continue d'affiner des compétences en informatique.</p>
+            <a href="">En savoir plus</a>
         </div>
         <div class="deco"></div>
     </section>
-    <section class="mes-projets" aria-label="Mes projets">
+    <section aria-label="Mes projets" class="mes-projets">
         <div class="deco"></div>
         <div class="content">
-        <h2>Mes projets</h2>
-        <p>Au cours de ma formation, j'ai eu l'occasion de réaliser divers projets, notamment dans le développement web et mobile.</p>
-        <a href="">En savoir plus</a>
+            <h2>Mes projets</h2>
+            <p>Au cours de ma formation, j'ai eu l'occasion de réaliser divers projets, notamment dans le développement
+                web et mobile.</p>
+            <a href="">En savoir plus</a>
         </div>
     </section>
-    <section class="contactez-moi" aria-label="Contactez moi">
+    <section aria-label="Contactez moi" class="contactez-moi">
         <h2>Vous souhaitez me contacter ?</h2>
-        <video autoplay muted loop id="background-video">
-            <source src="https://videos.pexels.com/video-files/3615882/3615882-uhd_2560_1440_25fps.mp4" type="video/mp4">
+        <video autoplay id="background-video" loop muted>
+            <source src="https://videos.pexels.com/video-files/3615882/3615882-uhd_2560_1440_25fps.mp4"
+                    type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <form action="" method="post" >
+        <form action="" method="post">
 
             <label for="prenom"> Prénom</label>
-            <input type="text" placeholder="nino" name="prenom" id="prenom" required>
+            <input id="prenom" name="prenom" placeholder="nino" required type="text">
             <label for="nom">Nom</label>
-            <input type="text" name="nom" placeholder="megard" id="nom" required>
+            <input id="nom" name="nom" placeholder="megard" required type="text">
             <label for="mail">Mail</label>
-            <input type="text" name="mail" placeholder="nino.megard@etu.univ-lyon1.fr" id="mail" required>
+            <input id="mail" name="mail" placeholder="nino.megard@etu.univ-lyon1.fr" required type="text">
 
             <label for="msg">Message</label>
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mon message."></textarea>
+            <textarea cols="30" id="msg" name="msg" placeholder="Mon message." rows="10"></textarea>
             <button type="submit">Envoyer</button>
         </form>
     </section>
 </main>
 <footer>
     <nav aria-label="navigation secondaire">
+        <h3>Pour en savoir +</h3>
         <ul>
             <li><a href="">À propos</a></li>
             <li><a href="">Mes projets</a></li>
             <li><a href="">Mes compétences</a></li>
         </ul>
     </nav>
-    <div class="mes-reseaux">
-        <a href="">GitHub</a>
-        <a href="">LinkedIn</a>
+    <section class="mes-reseaux">
+        <h3>Mes réseaux</h3>
+        <ul>
+            <li><a href="https://github.com/NofastOne">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/nino-megard-11751133a">LinkedIn</a></li>
+        </ul>
+    </section>
+    <div>
+
+        <p>
+            Site réalisé par Nino Mégard. Design et code 100% faits maison.<br>
+            <a href="">Mentions légales</a> | <a href="">Politique de confidentialité</a>
+        </p>
+        <p>© 2024 Nino Mégard - Etudiant Informatique 2ème année</p>
     </div>
-    <p>© 2024 Nino Mégard - Etudiant Informatique 2ème année</p>
-    <p>
-        Site réalisé par Nino Mégard. Design et code 100% faits maison.<br>
-        <a href="">Mentions légales</a> | <a href="">Politique de confidentialité</a>
-    </p>
-    <a href="" class="retour-en-haut">↑ Retour en haut</a>
 </footer>
 </body>
 </html>

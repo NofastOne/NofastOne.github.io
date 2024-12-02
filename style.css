@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -14,6 +15,7 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
 .arizonia-regular {
     font-family: "Arizonia", cursive;
     font-weight: 400;
@@ -21,16 +23,17 @@ body{
 }
 
 /*Header*/
-header{
+header {
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background: black url("img/background.jpg") no-repeat  ;
+    background: black url("img/background.jpg") no-repeat;
     background-size: cover;
 }
+
 /* Navigation */
-header >nav{
+header > nav {
     width: 100vw;
     height: 10vh;
     overflow: hidden;
@@ -39,27 +42,32 @@ header >nav{
     align-items: center;
     justify-content: center;
 }
-header >nav >.logo{
+
+header > nav > .logo {
     width: 25%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-header > nav .logo img{
+
+header > nav .logo img {
     height: 10vh;
     padding-bottom: 3vh;
     padding-left: 2vw;
 }
-header >nav >.liens-nav{
+
+header > nav > .liens-nav {
     width: 50%;
     height: 100%;
 }
-header > nav > .reseau-nav{
+
+header > nav > .reseau-nav {
     width: 25%;
     height: 100%;
 }
-header > nav > .liens-nav > ul{
+
+header > nav > .liens-nav > ul {
 
     display: flex;
     height: 100%;
@@ -68,7 +76,8 @@ header > nav > .liens-nav > ul{
     align-items: center;
     justify-content: space-evenly;
 }
-header > nav >.reseau-nav > ul{
+
+header > nav > .reseau-nav > ul {
     display: flex;
     height: 100%;
     width: 100%;
@@ -76,26 +85,30 @@ header > nav >.reseau-nav > ul{
     justify-content: flex-end;
     align-items: center;
 }
-header > nav > .reseau-nav > ul > li{
+
+header > nav > .reseau-nav > ul > li {
     height: 60%;
     width: auto;
     padding-right: 2vw;
     overflow: hidden;
 }
-header > nav > .reseau-nav a img{
+
+header > nav > .reseau-nav a img {
     background-color: white;
     height: 80%;
     padding: 2px;
-    border-radius:50%;
+    border-radius: 50%;
 }
-header > nav > .liens-nav a{
+
+header > nav > .liens-nav a {
     font-size: 2rem;
     font-family: "oswald";
     text-decoration: none;
     color: white;
 }
+
 /* Presentation */
-header > .presentation{
+header > .presentation {
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -106,15 +119,18 @@ header > .presentation{
     color: rgb(255, 255, 255);
 
 }
-header > .presentation h1{
+
+header > .presentation h1 {
     font-family: "arizonia";
     font-size: 6rem;
 }
+
 header > .presentation h2 {
     font-family: "arizonia";
     font-size: 4rem;
 }
-header > .presentation a{
+
+header > .presentation a {
     margin-top: 16vh;
     font-size: 1.5rem;
     border-radius: 10px;
@@ -129,7 +145,7 @@ header > .presentation a{
 }
 
 /*Main*/
-main{
+main {
     overflow: hidden;
     font-family: "oswald";
     background-color: #1f2c44;
@@ -139,7 +155,8 @@ main{
 
 
 }
-main a{
+
+main a {
     text-decoration: none;
     color: black;
     background-color: white;
@@ -148,26 +165,29 @@ main a{
     margin-top: 2vh;
     margin-left: 5vw;
 }
-main h2{
-    color:white;
-    background-color: rgba(0,0,0,0.2);
+
+main h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 2vw;
     border-radius: 15px;
     font-size: 3rem;
 }
-main p{
+
+main p {
     color: white;
     border-radius: 15px;
     padding: 2vw;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     margin-top: 6vh;
     width: 15vw;
     font-size: 1.5rem;
     text-align: justify;
 
 }
+
 /* A-Propos */
-main > .a-propos{
+main > .a-propos {
     margin-top: 5vh;
     display: flex;
     width: 100%;
@@ -176,11 +196,13 @@ main > .a-propos{
     justify-content: space-evenly;
     overflow: hidden;
 }
-main > .a-propos > .content > h2, main > .a-propos > .content > p, main > .a-propos > .content > a{
+
+main > .a-propos > .content > h2, main > .a-propos > .content > p, main > .a-propos > .content > a {
     margin-right: 16vw;
     margin-left: 0;
 }
-main > .a-propos > .deco{
+
+main > .a-propos > .deco {
     display: flex;
     width: 45%;
     height: 100%;
@@ -189,7 +211,8 @@ main > .a-propos > .deco{
     background-size: cover;
     border-radius: 15px;
 }
-main > .a-propos > .content{
+
+main > .a-propos > .content {
     display: flex;
     width: 45%;
     border-radius: 15px;
@@ -197,16 +220,17 @@ main > .a-propos > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596487/pexels-photo-29596487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+    background: rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596487/pexels-photo-29596487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
 }
 
-#keyboard-spline{
+#keyboard-spline {
     width: 80%;
 }
+
 /* Mes-Competences */
-main > .mes-competences{
+main > .mes-competences {
     margin-top: 5vh;
     display: flex;
     width: 100%;
@@ -215,11 +239,13 @@ main > .mes-competences{
     justify-content: space-evenly;
     overflow: hidden;
 }
-main > .mes-competences > .content > h2, main > .mes-competences > .content > p, main > .mes-competences > .content > a{
+
+main > .mes-competences > .content > h2, main > .mes-competences > .content > p, main > .mes-competences > .content > a {
     margin-right: 16vw;
     margin-left: 0;
 }
-main > .mes-competences > .deco{
+
+main > .mes-competences > .deco {
     display: flex;
     width: 21%;
     height: 100%;
@@ -228,7 +254,8 @@ main > .mes-competences > .deco{
     background-size: cover;
     border-radius: 15px;
 }
-main > .mes-competences > .content{
+
+main > .mes-competences > .content {
     display: flex;
     width: 45%;
     border-radius: 15px;
@@ -236,12 +263,13 @@ main > .mes-competences > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596463/pexels-photo-29596463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+    background: rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596463/pexels-photo-29596463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
 }
+
 /* Mes-Projets */
-main > .mes-projets{
+main > .mes-projets {
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: flex;
@@ -251,11 +279,13 @@ main > .mes-projets{
     justify-content: space-evenly;
     overflow: hidden;
 }
-main > .mes-projets > .content > h2, main > .mes-projets > .content > p, main > .mes-projets > .content > a{
+
+main > .mes-projets > .content > h2, main > .mes-projets > .content > p, main > .mes-projets > .content > a {
     margin-right: 16vw;
     margin-left: 0;
 }
-main > .mes-projets > .deco{
+
+main > .mes-projets > .deco {
     display: flex;
     width: 45%;
     height: 100%;
@@ -264,7 +294,8 @@ main > .mes-projets > .deco{
     background-size: cover;
     border-radius: 15px;
 }
-main > .mes-projets > .content{
+
+main > .mes-projets > .content {
     display: flex;
     width: 45%;
     border-radius: 15px;
@@ -272,12 +303,14 @@ main > .mes-projets > .content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:  rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596486/pexels-photo-29596486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+    background: rgba(0, 0, 0, 0.42) url("https://images.pexels.com/photos/29596486/pexels-photo-29596486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
     background-size: cover;
     color: white;
 }
+
 /* Formulaire de contact */
 main > .contactez-moi {
+    height: 100vh;
     display: flex;
     font-family: "oswald";
     width: 100%;
@@ -285,14 +318,16 @@ main > .contactez-moi {
     flex-direction: column;
     align-items: center;
 }
-main > .contactez-moi > h2{
-    color:black;
+
+main > .contactez-moi > h2 {
+    color: black;
     margin-top: -2vh;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     font-size: 3rem;
     z-index: 1;
 }
-main > .contactez-moi > form{
+
+main > .contactez-moi > form {
     display: flex;
 
     flex-direction: column;
@@ -306,7 +341,8 @@ main > .contactez-moi > form{
     border-radius: 15px;
     z-index: 1;
 }
-main > .contactez-moi > form  input{
+
+main > .contactez-moi > form input {
     width: 80%;
     font-family: "oswald";
     height: 3vh;
@@ -316,11 +352,13 @@ main > .contactez-moi > form  input{
     border: none;
     font-size: 1.5rem;
 }
-main > .contactez-moi > form > label{
+
+main > .contactez-moi > form > label {
     margin-right: 37vw;
     margin-bottom: -2vh;
 }
-main > .contactez-moi > form  textarea{
+
+main > .contactez-moi > form textarea {
     width: 80%;
     height: 20vh;
     margin-top: 2vh;
@@ -328,7 +366,8 @@ main > .contactez-moi > form  textarea{
     padding: 1vh;
     font-size: 1.5rem;
 }
-main > .contactez-moi > form  button{
+
+main > .contactez-moi > form button {
     width: 40%;
     font-family: "oswald";
     padding: 3vh;
@@ -337,7 +376,8 @@ main > .contactez-moi > form  button{
     border-radius: 10px;
     margin-top: 3vh;
 }
-main .contactez-moi video{
+
+main .contactez-moi video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -346,10 +386,42 @@ main .contactez-moi video{
 }
 
 /* Footer */
-footer{
+footer {
+    color: black;
     z-index: 1;
+    width: 100vw;
     height: 30vh;
+    font-family: "oswald";
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+footer div, footer section {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+footer h3{
+    font-size: 1.7rem;
+}
+
+footer nav {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10vw;
+    justify-content: space-evenly;
 }
